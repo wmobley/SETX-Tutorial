@@ -1,13 +1,13 @@
 {
-  "id": "cookbook-jupyter-template-cpu",
-  "version": "0.0.1",
+  "id": "Setx-tutorial",
+  "version": "0.0.1:sha-3c5e584",
   "description": "Jupyter Lab environment for CPU",
   "owner": "${apiUserId}",
   "enabled": true,
   "runtime": "SINGULARITY",
   "runtimeVersion": null,
   "runtimeOptions": ["SINGULARITY_RUN"],
-  "containerImage": "docker://ghcr.io/in-for-disaster-analytics/cookbook-jupyter-template-cpu:0.0.1",
+  "containerImage": "docker://ghcr.io/wmobley/SETX-Tutorial-cpu:sha-3c5e584",
   "jobType": "BATCH",
   "maxJobs": -1,
   "maxJobsPerUser": -1,
@@ -141,11 +141,11 @@
   },
   "tags": ["portalName: ALL"],
   "notes": {
-    "label": "Cookbook - Jupyter Lab (CPU)",
+    "label": "SETx - Tutorial Cookbook - Jupyter Lab (CPU)",
     "hideNodeCountAndCoresPerNode": true,
     "isInteractive": true,
     "icon": "jupyter",
     "category": "Data Processing",
-    "queueFilter": ["development"]
+    "queueFilter": ["vm-small"]
   }
 }
